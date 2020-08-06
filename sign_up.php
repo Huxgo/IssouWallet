@@ -11,7 +11,7 @@ if(isset($_SESSION['sold']) & isset($_SESSION['username']) & isset($_SESSION['ad
 <html class="no-js" lang="en">
 
 	<head>
-		<title>IssouCoin - Wallet</title>
+		<title>Wallet</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
