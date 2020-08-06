@@ -28,7 +28,7 @@ if($sold === "") {
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>IssouCoin - Wallet</title>
+	<title>Wallet</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
