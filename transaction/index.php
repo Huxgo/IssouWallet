@@ -9,7 +9,7 @@ if(!isset($_SESSION['username'])) {
     exit();
 }
 
-$sold = shell_exec('C:\Python36\python.exe ../../count_the_money.py ' . $_SESSION['address']);
+$sold = shell_exec('C:\Python36\python.exe ../../count_the_money.py ' . $_SESSION['address']); ## Version injection on PHP 5 < 5.6.25 & PHP 7 < 7.0.10 leading to RCE
                     
 if($sold === "") {
     $_SESSION['sold'] = 0;
